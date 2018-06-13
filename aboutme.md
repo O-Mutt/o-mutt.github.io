@@ -10,7 +10,7 @@ comments: false
 ### Andover HS
 -----
   I grew up in [Andover, MN](http://en.wikipedia.org/wiki/Andover,_Minnesota). Attended Andover High School, played soccer, ran track.
-CSS (College of St Scholastica)
+### CSS (College of St Scholastica)
 -----
   I chose to attend the College of Saint Scholastica in Duluth, Minnesota, based on a generous academic scholarship and an opportunity to play DIII soccer. After the first two days of practice and a morning 5K, I got confronted with a life-altering challenge. Both of my hip joints were literally being torn apart by bone that had built up at the top of my femurs, requiring immediate surgery to avoid further damage to my hips. Although this was difficult for me when, this circumstance set me up for a completely different and positive course around technology. After taking Network Security and Telecommunications, I got hooked. Computer Information Systems was what I was going to study. I followed this path with passion and got elected [St Scholastica Computer Club](http://student.css.edu/cis/) president, growing active membership from 8 to 30-plus and establishing to new alliances with [Vineyard College Gamers](https://www.facebook.com/groups/175670680210/) and the University of Minnesota-Duluth Computer Club.
 
