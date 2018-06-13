@@ -24,9 +24,9 @@ I have noticed something that you probably have as well. I have zero content for
 I want to and have done something about that. I recently learned about webtask.io, an [Auth0](auth0.com) product. It is a FaaS (function as a service) or serverless.
 FaaS is a relatively new idea in the cloud computing space. It allows for development, running, managing and maintatining applications from a server-side perspective without the need to build out costly, (and from some perspectives) less interesting infrastructure.
 The real use case for FaaS is when you have a known "on-demand" type request that you would like to run without the build out.
-    - Streaming content
-    - batch processing
-    - IoT
+  - Streaming content
+  - batch processing
+  - IoT
 Now to the nitty gritty.
 
 > **TL;DR**: I use webtask.io to scrape the highlights for mnufc.com and commit each highlight as a new file to my jekyll site as a new posting. [MattErickson.me Repo](https://github.com/mutmatt/mutmatt.github.io), [MN UFC scraping webtask repo](https://github.com/Mutmatt/auto-pull-req-new-mnufc)
