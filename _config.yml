@@ -1,11 +1,22 @@
 # --- General options --- #
 
+# url is the full website URL
+# baseurl is the website's URL without the hostname
+
+# If you are building a simple GitHub user page (http://username.github.io) then use these settings:
+url: "https://matterickson.me"
+baseurl: ""
+
+# If you are building a GitHub project page then use these settings:
+#url: "http://username.github.io/projectname"
+#baseurl: "/projectname"
+
+# Of course don't forget to change the username and projectname to YOUR username and project
+
 # Name of website
 title: Matt Erickson (ME)
 
 # Short description of your site
-url: "https://matterickson.me/beautiful-jekyll"
-baseurl: "/beautiful-jekyll"
 description: Tech and stuff
 # --- Local development options ---
 # If your website is hosted locally rather than on GitHub, then you need to uncomment the next two parameters to set the url and baseurl
