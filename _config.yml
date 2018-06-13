@@ -4,8 +4,8 @@
 # baseurl is the website's URL without the hostname
 
 # If you are building a simple GitHub user page (http://username.github.io) then use these settings:
-url: "https://matterickson.me/beautiful-jekyll"
-baseurl: "/beautiful-jekyll"
+url: "https://matterickson.me"
+baseurl: ""
 
 # If you are building a GitHub project page then use these settings:
 #url: "http://username.github.io/projectname"
@@ -105,7 +105,7 @@ url-pretty: "MattErickson.me"  # eg. "deanattali.com/beautiful-jekyll"
 # --- Web Statistics Section --- #
 
 # Fill in your Google Analytics ID to track your website using GA
-#google_analytics: ""
+google_analytics: "UA-38520661-2"
 
 # Google Tag Manager ID
 #gtm: ""
@@ -134,7 +134,7 @@ disqus: "mutmatt"
 
 # Excerpt Word Length
 # Truncates the excerpt to the specified number of words on the index page
-excerpt_length: 50
+excerpt_length: 95
 
 # Character used to separate site title and description in HTML document title
 # and RSS feed title
