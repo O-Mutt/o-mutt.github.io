@@ -25,11 +25,13 @@ author: Some Person
 # --- List of links in the navigation bar --- #
 
 navbar-links:
+  Categories:
+    - Development
+    - Business
+    - Personal
+    - Soccer
   About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
-    - Learn markdown: "http://www.markdowntutorial.com/"
-  Author's home: "http://deanattali.com"
+  Resume: "/Resume"
 
 # --- Local development options ---
 
