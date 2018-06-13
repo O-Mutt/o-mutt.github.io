@@ -18,8 +18,8 @@ tags:
 gh-repo: mutmatt/auto-pull-req-new-mnufc
 gh-badge: [star, watch, follow, fork]
 ---
-WebTask.io, MN UFC, nodejs
-=====
+# WebTask.io, MN UFC, nodejs
+
 I have noticed something that you probably have as well. I have zero content for 2018... well save the one post about standups.
 I want to and have done something about that. I recently learned about webtask.io, an [Auth0](auth0.com) product. It is a FaaS (function as a service) or serverless.
 FaaS is a relatively new idea in the cloud computing space. It allows for development, running, managing and maintatining applications from a server-side perspective without the need to build out costly, (and from some perspectives) less interesting infrastructure.
@@ -29,13 +29,13 @@ The real use case for FaaS is when you have a known "on-demand" type request tha
     - IoT
 Now to the nitty gritty.
 
-MN UFC Html Scraping
-====
+> **TL;DR**: I use webtask.io to scrape the highlights for mnufc.com and commit each highlight as a new file to my jekyll site as a new posting. [MattErickson.me Repo](https://github.com/mutmatt/mutmatt.github.io), [MN UFC scraping webtask repo](https://github.com/Mutmatt/auto-pull-req-new-mnufc)
+
+### MN UFC Html Scraping
+
 I was looking for content to add to my site and, as some may know, I am a supporter of the Minnesota United Football Club (MNUFC).
 So I thought to myself, why not show the highlights on my site? Enter [MN UFC Highlights Page](https://mnufc.com/video-channels/match-highlights). 
 I decided this would be the perfect content to show. Simple, easy, eye catching, fun.
-
-**TL;DR**: I use webtask.io to scrape the highlights for mnufc.com and commit each highlight as a new file to my jekyll site as a new posting. [MattErickson.me Repo](https://github.com/mutmatt/mutmatt.github.io), [MN UFC scraping webtask repo](https://github.com/Mutmatt/auto-pull-req-new-mnufc)
 
 So I started with scraping the content, I knew I'd need `jquery` (or `cheerio` if you are in a `node` setting). I'd be making requests out so that was an easy 'grab'. Also `lodash` is usually an easy helper, `cheerio` as I mentioned, and `bluebird` to for help with the `request.all()`.
 
@@ -65,8 +65,11 @@ tags:
 
 and then on each highlight video page there is an embed link that looked the exact same, save a video ID:
 
-``` javascript
-let iframeUrlTemplate = `<div class='soccer-video-wrapper'>\r\n<iframe class='soccer-video' width='100%' height='auto' frameborder='0' allowfullscreen src="https://www.mnufc.com/iframe-video?brightcove_id={replaceMe}&brightcove_player_id=default&brightcove_account_id=5534894110001"></iframe>\r\n</div>`;
+``` html
+let iframeUrlTemplate = 
+`<div class='soccer-video-wrapper'>
+  <iframe class='soccer-video' width='100%' height='auto' frameborder='0' allowfullscreen src="https://www.mnufc.com/iframe-video?brightcove_id={replaceMe}&brightcove_player_id=default&brightcove_account_id=5534894110001"></iframe>
+</div>`;
 ```
 
 I added a keyword with some curries `{replaceMe}` to be replaced lated in the code.
