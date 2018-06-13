@@ -17,7 +17,7 @@ Note: _This information is meant to be generic to Eclipse as a whole but for ref
 
 # Eclipse In the company I work for we use 
 
-<a href="http://www.eclipse.org/" rel="external">Eclipse</a> as our primary IDE for development. Eclipse is a project by &#8220;The Eclipse Foundation&#8221;. It is an IDE that has MANY, many plug-ins that range from official ones such as the <a href="http://www.jboss.org/tools/download" rel="external">JBoss plugin</a> to make using jboss technologies like drools rules easier to work with to from within eclipse to <a href="http://andrei.gmxhome.de/anyedit/" rel="external">AnyEdit</a> which is something I use to remove trailing spaces and tabs from my code (for checkstyle purposes) 
+(Eclipse)[http://www.eclipse.org/] as our primary IDE for development. Eclipse is a project by &#8220;The Eclipse Foundation&#8221;. It is an IDE that has MANY, many plug-ins that range from official ones such as the <a href="http://www.jboss.org/tools/download" rel="external">JBoss plugin</a> to make using jboss technologies like drools rules easier to work with to from within eclipse to <a href="http://andrei.gmxhome.de/anyedit/" rel="external">AnyEdit</a> which is something I use to remove trailing spaces and tabs from my code (for checkstyle purposes) 
 
 ### Hot-Keys By using Eclipse efficiently you can decrease the amount of time you spend on tedious things and increase your productivity significantly Firstly, moving quickly without letting your hands leave the keyboard can speed you up more than you would expect. So lets look at some of those hot-keys, most of which are built into OS&#8217;. 
 
