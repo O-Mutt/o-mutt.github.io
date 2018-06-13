@@ -1,6 +1,7 @@
 ---
 layout: post
 title: About (ME)
+subtitle: All the information about (ME) that you probably don't care to know
 permalink: /aboutme/
 comments: false
 ---
