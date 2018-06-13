@@ -15,7 +15,7 @@ tags:
   - webtask.io
   - node
   - development
-gh-repo: /mutmatt/auto-pull-req-new-mnufc
+gh-repo: mutmatt/auto-pull-req-new-mnufc
 gh-badge: [star, watch, follow, fork]
 ---
 WebTask.io, MN UFC, nodejs
