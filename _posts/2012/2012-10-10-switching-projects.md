@@ -10,7 +10,6 @@ categories:
 ### September 11th
 
 Let me start off this post by telling you a short story of my family and the date. Today is September 11th, 2012. Eleven years ago today, the United States had a terrible event occur by extremists from a religious group. I could go into my thoughts on this but no one actually wants to hear that, and that is not why you are here so onto the story.
-  
 
 I have three sisters, the middle, in age, of the three had a child when she was sixteen years old. When the child was born my uncle and his wife decided to adopt her. Fast forward a few years, my uncle was working as a radio show host in the south tower of the world trade center and his wife worked as a video editor (I believe). Well on the night of September 10th, 2001 Taylor, the little girl whom they adopted, came down with a stomach bug and was not able to go to daycare. This meant one of her parents wasn&#8217;t able to go to work, my uncle drew the short straw and stayed home. Later that morning the tower that he would have been working in fell. . .
   
