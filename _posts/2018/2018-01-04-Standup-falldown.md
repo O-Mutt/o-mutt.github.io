@@ -4,11 +4,8 @@ date: 2018-01-04T17:00:00+00:00
 author: Matt Erickson (ME)
 layout: post
 permalink: /stand-up-fail/
-spacious_page_layout:
-  - default_layout
-categories:
-  - business
 tags:
+  - business
   - stand-up
   - agile
   - ceremony

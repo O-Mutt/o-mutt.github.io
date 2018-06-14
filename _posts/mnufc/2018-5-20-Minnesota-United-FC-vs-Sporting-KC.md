@@ -5,11 +5,11 @@ permalink: /2018_5_20_minnesota_united_fc_vs_sporting_kc
 author: Matt Erickson (ME)
 layout: post
 categories:
-  - MNUFC
-  - Auto-post
+  - mnufc
+  - auto-post
 tags:
-  - MNUFC
-  - Soccer
+  - mnufc
+  - soccer
 excerpt:
   Looking to snap a two match losing streak, Minnesota United FC hosts Western Conference leaders Sporting Kansas City at TCF Bank stadium.
 ---

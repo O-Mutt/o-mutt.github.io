@@ -6,9 +6,9 @@ author: Tucker Combs
 layout: post
 permalink: /introductions-are-in-order-i-think/
 tags:
-  - Development
+  - development
   - collaboration
-  - oh god what have I gotten myself into
+  - oh god what have i gotten myself into
   - tucker
 ---
 Hello World!

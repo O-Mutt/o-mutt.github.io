@@ -5,9 +5,9 @@ date: 2013-04-26T10:48:07+00:00
 author: Matt Erickson (ME)
 layout: post
 permalink: /mvc-knowing-it-using-it/
-categories:
-  - Development
-  - Java
+tags:
+  - development
+  - java
 ---
 MVC. Model, view, controller. The building blocks of a extensible, reusable, wonderful code base.   
 
@@ -59,7 +59,7 @@ class Person() extends BaseModel {
     return m_name;
   }
 }
-</pre> So, here, we see the main difference in this code: the model in the first example tells the controller to refresh the view. Now this model cannot be used by any other class unless every interaction with a person is meant to refresh that one list every time. Not only is the model not reusable for different classes but if we decide to give the user an option to have a grid or a list, which is becoming more and more common in web development and mobile, we cannot because we are attached to the list in the controller by hard coding. 
+</pre> So, here, we see the main difference in this code: the model in the first example tells the controller to refresh the view. Now this model cannot be used by any other class unless every interaction with a person is meant to refresh that one list every time. Not only is the model not reusable for different classes but if we decide to give the user an option to have a grid or a list, which is becoming more and more common in web   -  and mobile, we cannot because we are attached to the list in the controller by hard coding. 
 
   
 

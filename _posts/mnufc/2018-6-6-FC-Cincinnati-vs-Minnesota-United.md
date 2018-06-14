@@ -5,11 +5,11 @@ permalink: /2018_6_6_fc_cincinnati_vs_minnesota_united
 author: Matt Erickson (ME)
 layout: post
 categories:
-  - MNUFC
-  - Auto-post
+  - mnufc
+  - auto-post
 tags:
-  - MNUFC
-  - Soccer
+  - mnufc
+  - soccer
 excerpt:
   Future MLS side FC Cincinnati hope to recapture last year's US Open Cup magic as they welcome Minnesota United to Nippert Stadium in the 4th Round of the US Open Cup.
 ---

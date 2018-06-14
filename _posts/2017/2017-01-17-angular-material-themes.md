@@ -4,13 +4,11 @@ date: 2017-01-17T23:56:00+00:00
 author: Matt Erickson (ME)
 layout: post
 permalink: /angular-material-theming-(or_not)/
-spacious_page_layout:
-  - default_layout
-categories:
-  - Development
-  - HTML
-  - JavaScript
-  - Angular
+tags:
+  - development
+  - html
+  - javascript
+  - angular
 ---
 Welcome back!
 =====

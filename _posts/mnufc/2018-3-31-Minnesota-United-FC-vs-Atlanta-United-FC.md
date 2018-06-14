@@ -4,12 +4,10 @@ date: Sat Mar 31 2018 00:00:00 GMT+0000 (UTC)
 permalink: /2018_3_31_minnesota_united_fc_vs_atlanta_united_fc 
 author: Matt Erickson (ME)
 layout: post
-categories:
-  - MNUFC
-  - Auto-post
 tags:
-  - MNUFC
-  - Soccer
+  - auto-post
+  - mnufc
+  - soccer
 excerpt:
   Last year’s expansion teams face off for the first time this season when Atlanta United FC travel north to square off with Minnesota United FC.
 ---

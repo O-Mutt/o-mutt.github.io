@@ -5,9 +5,8 @@ date: 2013-04-02T15:39:34+00:00
 author: Matt Erickson (ME)
 layout: post
 permalink: /completely-unrelated/
-categories:
-  - Random
 tags:
+  - random
   - multiverse
   - not programming
   - universe
