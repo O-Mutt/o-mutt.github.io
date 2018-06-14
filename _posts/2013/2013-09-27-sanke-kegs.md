@@ -5,9 +5,9 @@ date: 2013-09-27T11:41:38+00:00
 author: Matt Erickson (ME)
 layout: post
 permalink: /sanke-kegs/
-categories:
-  - Beer Brewing
-  - Homemade/DIY
+tags:
+  - beer-brewing
+  - homemade/diy
 ---
 Since I have started homebrewing there has been one thing that I don't like. Bottling. Cleaning, sanitizing, adding sugar, bottling, capping, waiting... oh the waiting! I hated it.  
 

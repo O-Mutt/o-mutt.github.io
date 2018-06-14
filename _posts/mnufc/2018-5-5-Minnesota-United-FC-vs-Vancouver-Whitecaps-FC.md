@@ -5,11 +5,11 @@ permalink: /2018_5_5_minnesota_united_fc_vs_vancouver_whitecaps_fc_md
 author: Matt Erickson (ME)
 layout: post
 categories:
-  - MNUFC
-  - Auto-post
+  - mnufc
+  - auto-post
 tags:
-  - MNUFC
-  - Soccer
+  - mnufc
+  - soccer
 excerpt:
   Darwin Quintero and Minnesota United look to continue their scintillating home form against the Vancouver Whitecaps.
 ---

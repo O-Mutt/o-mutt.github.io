@@ -5,11 +5,11 @@ permalink: /2018_4_15_portland_timbers_vs_minnesota_united_fc_md
 author: Matt Erickson (ME)
 layout: post
 categories:
-  - MNUFC
-  - Auto-post
+  - mnufc
+  - auto-post
 tags:
-  - MNUFC
-  - Soccer
+  - mnufc
+  - soccer
 excerpt:
   Cristian Roldan and the defending Western Conference champion Seattle Sounders continue their search for their first win of the season as they welcome second-year side Minnesota United to CenturyLink Field.
 ---

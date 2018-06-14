@@ -5,14 +5,12 @@ date: 2014-12-26T10:57:24+00:00
 author: Matt Erickson (ME)
 layout: post
 permalink: /food-eat-take-2/
-categories:
-  - Business
-  - Development
-  - Javascript
-  - Random
-  - Web
 tags:
+  - business
   - development
+  - javascript
+  - random
+  - web
   - food.eat
   - ruby
   - ruby on rails

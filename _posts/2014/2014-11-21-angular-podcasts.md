@@ -5,15 +5,12 @@ date: 2014-11-21T18:55:52+00:00
 author: Matt Erickson (ME)
 layout: post
 permalink: /angular-podcasts/
-spacious_page_layout:
-  - default_layout
-categories:
-  - Business
-  - Development
-  - Javascript
-  - Random
 tags:
-  - Angular
+  - business
+  - development
+  - javascript
+  - random
+  - angular
   - development
   - front-end
   - javascript

@@ -6,7 +6,7 @@ author: Matt Erickson (ME)
 layout: post
 permalink: /giving-interviews/
 tags:
-  - Business
+  - business
   - development
   - interview
   - social skills

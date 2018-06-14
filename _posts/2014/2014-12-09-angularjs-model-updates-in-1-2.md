@@ -5,12 +5,10 @@ date: 2014-12-09T13:54:51+00:00
 author: Matt Erickson (ME)
 layout: post
 permalink: /angularjs-model-updates-in-1-2/
-spacious_page_layout:
-  - default_layout
-categories:
-  - Development
-  - Javascript
-  - Web
+tags:
+  - development
+  - javascript
+  - web
 ---
 Why must we do this So, due to some business limitations, and much to my chagrin, I am supporting IE8 at work. I don't even want to talk about it. BUT with that we also want to not be 'bossy" in the way we show users errors in our angular code. Brings me to the point; custom angular directive to polyfill the 1.2 -> 1.3 gap in modelOptions! (also not happy to change the core of angular in this way). 
 

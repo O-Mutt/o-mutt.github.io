@@ -5,7 +5,7 @@ date: 2012-10-10T21:06:13+00:00
 layout: post
 permalink: /eclipse-hot-keys/
 tags:
-  - Development
+  - development
   - eclipse
   - hacking
   - hot-key

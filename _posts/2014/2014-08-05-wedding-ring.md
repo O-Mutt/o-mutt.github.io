@@ -5,11 +5,8 @@ date: 2014-08-05T12:12:51+00:00
 author: Matt Erickson (ME)
 layout: post
 permalink: /wedding-ring/
-spacious_page_layout:
-  - default_layout
-categories:
-  - (ME)
 tags:
+  - (me)
   - erickson
   - matt and lauren
   - "o'erick"

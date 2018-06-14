@@ -5,11 +5,11 @@ permalink: /2018_5_26_highlights_from_minnesotas_2_0_win_over_montreal_md
 author: Matt Erickson (ME)
 layout: post
 categories:
-  - MNUFC
-  - Auto-post
+  - mnufc
+  - auto-post
 tags:
-  - MNUFC
-  - Soccer
+  - mnufc
+  - soccer
 excerpt:
   Minnesota United FC hosts Montreal Impact at TCF Bank Stadium as both sides look for their first victory since May 5.
 ---

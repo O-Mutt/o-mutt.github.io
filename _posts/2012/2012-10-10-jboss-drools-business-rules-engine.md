@@ -5,7 +5,7 @@ date: 2012-10-10T21:01:31+00:00
 layout: post
 permalink: /jboss-drools-business-rules-engine/
 tags:
-  - Development
+  - development
   - business rules
   - drools
   - java

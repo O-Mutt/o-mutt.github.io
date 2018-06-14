@@ -5,16 +5,15 @@ date: 2013-04-26T14:11:52+00:00
 author: Matt Erickson (ME)
 layout: post
 permalink: /the-ten-egoless-programming-commandments/
-categories:
-  - Business
-  - Development
 tags:
+  - business
+  - development
   - coders
   - ethics
   - programmers
   - psychology
 ---
-So, today, as most days, during compilation or time I take to rest my brain from strain I was reading through some of the G+ posts on development, technologies, and programming and came across this post. It is an excerpt from Jerry Weinberg's book <a href="http://www.amazon.com/The-Psychology-Computer-Programming-Anniversary/dp/0932633420/ref=sr_1_1?ie=UTF8&#038;qid=1366999209&#038;sr=8-1&#038;keywords=the+psychology+of+computer+programming" title="The Psychology of Computer Programming" target="_blank">The Psychology of Computer Programming</a>. 
+So, today, as most days, during compilation or time I take to rest my brain from strain I was reading through some of the G+ posts on   - , technologies, and programming and came across this post. it is an excerpt from jerry weinberg's book <a href="http://www.amazon.com/the-psychology-computer-programming-anniversary/dp/0932633420/ref=sr_1_1?ie=utf8&#038;qid=1366999209&#038;sr=8-1&#038;keywords=the+psychology+of+computer+programming" title="the psychology of computer programming" target="_blank">the psychology of computer programming</a>. 
   
 
 

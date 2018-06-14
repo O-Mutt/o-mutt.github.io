@@ -5,11 +5,11 @@ permalink: /2018_6_3_sporting_kansas_city_vs_minnesota_united_fc
 author: Matt Erickson (ME)
 layout: post
 categories:
-  - MNUFC
-  - Auto-post
+  - mnufc
+  - auto-post
 tags:
-  - MNUFC
-  - Soccer
+  - mnufc
+  - soccer
 excerpt:
   Looking to get back atop the Western Conference, Sporting Kansas City welcome Minnesota United to Children's Mercy Park.
 ---

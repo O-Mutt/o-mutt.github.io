@@ -5,10 +5,6 @@ date: 2017-01-25T21:50:00+00:00
 author: Matt Erickson (ME)
 layout: post
 permalink: /shout-out-to-lauren/
-spacious_page_layout:
-  - default_layout
-categories:
-  - personal
 tags:
   - personal
   - "o'erick"

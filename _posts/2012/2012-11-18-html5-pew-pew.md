@@ -5,10 +5,10 @@ date: 2012-11-18T08:59:15+00:00
 layout: post
 permalink: /html5-pew-pew/
 tags:  
-  - Development
-  - Featured
-  - HTML5/CSS3
-  - Web
+  - development
+  - featured
+  - html5/css3
+  - web
   - galaga
   - game
   - html5

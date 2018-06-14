@@ -5,12 +5,10 @@ date: 2015-04-06T08:18:27+00:00
 author: Matt Erickson (ME)
 layout: post
 permalink: /state-of-the-union-angular-software-aia/
-spacious_page_layout:
-  - default_layout
-categories:
-  - (ME)
-  - Development
-  - Javascript
+tags:
+  - (me)
+  - development
+  - javascript
 ---
 Sup?! Over the past few weeks/months I have been incredibly busy, as you can probably guess from my lack of attention to this site. That doesn't, however, translate into getting nothing done. My 
 

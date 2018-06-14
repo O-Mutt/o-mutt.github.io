@@ -5,18 +5,15 @@ date: 2014-06-05T10:32:38+00:00
 author: Matt Erickson (ME)
 layout: post
 permalink: /dropdowns_selectboxes/
-spacious_page_layout:
-  - default_layout
-categories:
-  - Featured
-  - HTML5/CSS3
-  - Web
 tags:
-  - CSS
-  - Dropdown
-  - HTML
-  - Select
-  - SelectBox
+  - featured
+  - html5/css3
+  - web
+  - css
+  - dropdown
+  - html
+  - select
+  - selectbox
 ---
 
 <label class="custom-select-box full-width">

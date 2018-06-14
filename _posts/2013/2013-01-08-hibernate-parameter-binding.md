@@ -6,9 +6,9 @@ author: Matt Erickson (ME)
 layout: post
 permalink: /hibernate-parameter-binding/
 Tags:
-  - Development
-  - Java
-  - Web
+  - development
+  - java
+  - web
 gh-repo: /mutmatt/Xbox_Game_Voting
 gh-badge: [star, watch, follow, fork]
 ---

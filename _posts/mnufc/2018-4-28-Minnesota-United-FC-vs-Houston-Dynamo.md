@@ -5,11 +5,11 @@ permalink: /2018_4_28_minnesota_united_fc_vs_houston_dynamo_md
 author: Matt Erickson (ME)
 layout: post
 categories:
-  - MNUFC
-  - Auto-post
+  - mnufc
+  - auto-post
 tags:
-  - MNUFC
-  - Soccer
+  - mnufc
+  - soccer
 excerpt:
   Minnesota United is reeling and in desperate need of a result against a Houston Dynamo team full of confidence after routing a reserve-heavy Toronto FC side.
 ---

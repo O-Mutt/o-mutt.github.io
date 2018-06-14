@@ -5,11 +5,11 @@ permalink: /2018_5_12_minnesota_united_fc_vs_san_jose_earthquakes_md
 author: Matt Erickson (ME)
 layout: post
 categories:
-  - MNUFC
-  - Auto-post
+  - mnufc
+  - auto-post
 tags:
-  - MNUFC
-  - Soccer
+  - mnufc
+  - soccer
 excerpt:
   The San Jose Earthquakes are looking for a win at TCF Bank Stadium as they face Minnesota United FC.
 ---

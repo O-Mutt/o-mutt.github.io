@@ -5,12 +5,10 @@ date: 2013-02-07T14:52:57+00:00
 author: Matt Erickson (ME)
 layout: post
 permalink: /welcome_tucker_wordpress_lesso/
-tags:
-	- Web
-  	- PHP
-  	- Wordpress
-  	- WP
-	- Development
+tags:  - web
+   - php
+   - wordpress
+   - wp  - development
 ---
 First, I wanted to welcome a new contributor to the site, [Tucker Combs](/author/tucker-combs/ "Welcome Tucker Combs")! Tucker is, by profession, a marketing/advertiser. With that said I know that, from our days together in college, he has always had passion for technology and what developers love, creating. I want to welcome and thank him for joining in on helping us solve some of the struggles we go through learning technologies.  
   

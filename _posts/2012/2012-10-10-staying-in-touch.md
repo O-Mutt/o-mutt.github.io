@@ -5,9 +5,9 @@ date: 2012-10-10T21:30:03+00:00
 layout: post
 permalink: /staying-in-touch/
 tags:
-  - Business
-  - Friends
-  - Life
+  - business
+  - friends
+  - life
 ---
 ### Staying in touch with old coworkers and employers
 

@@ -5,12 +5,10 @@ date: 2014-12-10T10:40:27+00:00
 author: Matt Erickson (ME)
 layout: post
 permalink: /angular-batarang-chrome-plugin/
-spacious_page_layout:
-  - default_layout
-categories:
-  - Development
-  - Javascript
-  - Web
+tags:
+  - development
+  - javascript
+  - web
 ---
 This morning I sat down at my computer to start work. Pull up our bug tracking system to see what is going on. Well, bug in the software, looks like something in angular. Pull up the page in the specified environment and hit f12. Woh, woh, woh, what is this 'angular hint' in my console?!?   
 
