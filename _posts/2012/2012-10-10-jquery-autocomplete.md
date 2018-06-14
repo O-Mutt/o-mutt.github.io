@@ -4,9 +4,9 @@ title: 'jQuery UI Autocomplete with ajax&#8217;d custom JSONs'
 date: 2012-10-10T21:17:04+00:00
 layout: post
 permalink: /jquery-autocomplete/
-categories:
-  - Web
 tags:
+  - Web
+  - Development
   - ajax
   - autocomplete
   - custom object
