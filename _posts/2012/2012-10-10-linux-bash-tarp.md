@@ -5,8 +5,8 @@ date: 2012-10-10T21:20:51+00:00
 layout: post
 permalink: /linux-bash-tarp/
 tags:
-  - Linux
-  - OS
+  - linux
+  - os
   - bash
   - linux
   - terminal

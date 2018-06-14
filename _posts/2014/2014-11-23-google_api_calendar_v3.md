@@ -8,15 +8,15 @@ permalink: /google_api_calendar_v3/
 spacious_page_layout:
   - default_layout
 tags:
-  - Development
-  - Featured
-  - PHP
-  - Web
+  - development
+  - featured
+  - php
+  - web
   - google api
   - google calendar
   - google calendar api
   - google php api
-  - PHP
+  - php
 ---
 ## Google Api v1/v2 is dead, move on
 

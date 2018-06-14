@@ -6,13 +6,13 @@ author: Matt Erickson (ME)
 layout: post
 permalink: /window-browser/
 tags:
-  - Development
-  - HTML5/CSS3
-  - Javascript
-  - Web
-  - Hack
-  - IE
-  - IIFE
+  - development
+  - html5/css3
+  - javascript
+  - web
+  - hack
+  - ie
+  - iife
   - javascript
   - jquery
 ---

@@ -6,10 +6,10 @@ author: Matt Erickson (ME)
 layout: post
 permalink: /git-aliases/
 tags:
-  - Development
-  - Linux
+  - development
+  - linux
   - aliases
-  - Git
+  - git
 ---
 So, it has been a while but I have been working hard so we all know that you can't really blame me for that!  
   

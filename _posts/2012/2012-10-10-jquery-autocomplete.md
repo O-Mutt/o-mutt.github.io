@@ -5,8 +5,8 @@ date: 2012-10-10T21:17:04+00:00
 layout: post
 permalink: /jquery-autocomplete/
 tags:
-  - Web
-  - Development
+  - web
+  - development
   - ajax
   - autocomplete
   - custom object

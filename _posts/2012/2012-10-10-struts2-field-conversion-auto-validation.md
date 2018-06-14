@@ -5,8 +5,8 @@ date: 2012-10-10T20:56:47+00:00
 layout: post
 permalink: /struts2-field-conversion-auto-validation/
 tags:
-  - Development
-  - Web
+  - development
+  - web
   - auto-validation
   - invalid.fieldvalue
   - struts

@@ -5,7 +5,7 @@ date: 2012-10-10T21:30:34+00:00
 layout: post
 permalink: /switching-projects/
 tags:
-  - Development
+  - development
 ---
 ### September 11th
 
