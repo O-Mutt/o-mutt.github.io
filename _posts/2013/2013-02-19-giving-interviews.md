@@ -16,7 +16,7 @@ Today is the first day in my career at Vecna that I get to _give_ an interview.
   
 
   
-I have given interviews in the past, hiring for my earlier companies, (ByME)[https://getbyme.com] (all technical employees) and Illume (the sole other engineer). But I have never done anything in this respect here at Vecna. I view this as a great opportunity to further my skill set as a leader, innovator, and a resource for myself and my employer. I have given great thought on questions I will ask and things I want to carry out in getting to know the people that I will talk with. I have to conclude that, considering they are MIT undergrads, I can put a solid foothold on the fact that they will have basic understanding of OOP (Object Oriented Programming) and it's patterns. However, I can NOT necessarily say that these people will make good coworkers in our environment.  
+I have given interviews in the past, hiring for my earlier companies, [ByME](https://www.getbyme.com/) (all technical employees) and Illume (the sole other engineer). But I have never done anything in this respect here at Vecna. I view this as a great opportunity to further my skill set as a leader, innovator, and a resource for myself and my employer. I have given great thought on questions I will ask and things I want to carry out in getting to know the people that I will talk with. I have to conclude that, considering they are MIT undergrads, I can put a solid foothold on the fact that they will have basic understanding of OOP (Object Oriented Programming) and it's patterns. However, I can NOT necessarily say that these people will make good coworkers in our environment.  
 
 
   
