@@ -15,7 +15,9 @@ tags:
 ---
 <div class="separator" style="clear: both; text-align: center;">
   <a href="http://i0.wp.com/lh6.googleusercontent.com/-yI_NwSc7pc8/UCFRLmax5KI/AAAAAAAAB1w/jBTweZhnNlo/s371/2012-08-07_13-30-38_996.jpg?ssl=1" imageanchor="1" style="clear:right; float:right; margin-left:1em; margin-bottom:1em" rel="external"><img border="0" src="http://i0.wp.com/lh6.googleusercontent.com/-yI_NwSc7pc8/UCFRLmax5KI/AAAAAAAAB1w/jBTweZhnNlo/s371/2012-08-07_13-30-38_996.jpg?resize=209%2C371&#038;ssl=1" data-recalc-dims="1" /></a>
-</div> So, today, again, I was working with jboss&#8217; drools engine writing some more rules. My rule went something like this: 
+</div> 
+
+So, today, again, I was working with jboss&#8217; drools engine writing some more rules. My rule went something like this: 
 
 ``` java
 rule "Do stuff"
