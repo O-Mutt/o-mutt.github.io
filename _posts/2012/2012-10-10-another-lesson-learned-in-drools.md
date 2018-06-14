@@ -4,13 +4,11 @@ title: Another Lesson Learned in Drools
 date: 2012-10-10T21:29:28+00:00
 layout: post
 permalink: /another-lesson-learned-in-drools/
-categories:
+tags:
   - Development
   - Java
-tags:
   - business rules
   - drools
-  - java
   - jboss
 ---
 <div class="separator" style="clear: both; text-align: center;">
