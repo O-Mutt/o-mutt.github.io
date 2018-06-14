@@ -17,7 +17,7 @@ tags:
   - ruby
   - ruby on rails
 ---
-I have been planning, plotting, schema&#8230;ing(?) about Food.Eat since my original post. I have made some progress but I have not nailed down exactly how I want to handle user authentication/authorization. Mostly, I think this is due to my choice in the loosely scripted PHP backend. With that knowledge tucked in the back corner of my head I made a desicion this morning based on some information from listening to one of my first podcasts <a href="http://www.johnpapa.net/adventures-in-angular/" title="Adventures in Angular" target="_blank">Adventures in Angular</a> I am going to not only learn but also use Ruby on Rails for my backend.  
+I have been planning, plotting, schema...ing(?) about Food.Eat since my original post. I have made some progress but I have not nailed down exactly how I want to handle user authentication/authorization. Mostly, I think this is due to my choice in the loosely scripted PHP backend. With that knowledge tucked in the back corner of my head I made a desicion this morning based on some information from listening to one of my first podcasts <a href="http://www.johnpapa.net/adventures-in-angular/" title="Adventures in Angular" target="_blank">Adventures in Angular</a> I am going to not only learn but also use Ruby on Rails for my backend.  
 
 
   
@@ -25,11 +25,11 @@ I have been planning, plotting, schema&#8230;ing(?) about Food.Eat since my orig
 
 
   
-Similarly to using ruby as a new language on Food.Eat I also made the decision to go with angular 1.3.X for performance reasons and am also following <a href="https://github.com/johnpapa/angularjs-styleguide#iife" target="_blank">John Papa&#8217;s Styleguide</a> which, in my opinion, made my angular code much easier to read (<a href="https://github.com/Mutmatt/Food.Eat/blob/master/app/user/user.service.js" target="_blank">Example</a>).  
+Similarly to using ruby as a new language on Food.Eat I also made the decision to go with angular 1.3.X for performance reasons and am also following <a href="https://github.com/johnpapa/angularjs-styleguide#iife" target="_blank">John Papa's Styleguide</a> which, in my opinion, made my angular code much easier to read (<a href="https://github.com/Mutmatt/Food.Eat/blob/master/app/user/user.service.js" target="_blank">Example</a>).  
 
 
   
-If you would like to see any of the workings as I move forward, please, star, fork, help out, or just think &#8220;huh, Matt types things and I have no idea what they mean or he is talking about&#8221;.  
+If you would like to see any of the workings as I move forward, please, star, fork, help out, or just think 'huh, Matt types things and I have no idea what they mean or he is talking about".  
 
 
   

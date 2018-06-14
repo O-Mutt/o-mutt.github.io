@@ -116,14 +116,14 @@ Relatively simple, but there are some key pieces that need to be in place for th
 
 
   
-You will probably also notice that I don&#8217;t touch any of the nasty hacks that could happen for IE8-10. This is because I used a bit of javascript to grab these boxes and just remove all custom styling. It is much easier than hacking it and we have decided it to be graceful degradation. I will discuss this in a different post. 
+You will probably also notice that I don't touch any of the nasty hacks that could happen for IE8-10. This is because I used a bit of javascript to grab these boxes and just remove all custom styling. It is much easier than hacking it and we have decided it to be graceful degradation. I will discuss this in a different post. 
   
 Your output should look something like this:
   
 
 <img src="https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/img/custom_select-300x28.png?fit=300%2C28" alt="Custom_Select" class="alignnone size-medium wp-image-554" srcset="https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/img/custom_select.png?zoom=2&resize=600%2C60 1200w, https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/img/custom_select.png?zoom=3&resize=600%2C60 1800w" sizes="(max-width: 600px) 100vw, 600px" data-recalc-dims="1" /> 
   
-Unlike some examples i&#8217;ve seen out on the internet here is an actual WORKING example of how this is supposed to look and behave in modern browsers. 
+Unlike some examples i've seen out on the internet here is an actual WORKING example of how this is supposed to look and behave in modern browsers. 
 
 <label class="custom-select-box full-width"> <select class="form-control"> 
   <option value="1">Value 1</option> <option value="2">Value 2</option> 

@@ -12,7 +12,7 @@ categories:
 MVC. Model, view, controller. The building blocks of a extensible, reusable, wonderful code base.   
 
   
-**Model:** The data. Does **_NOT_** depend on the controller. Not even a little! It doesn&#8217;t modify the data, it doesn&#8217;t do anything except hold the data in some way shape or form (E.G. hibernate or another ORM to take care of database interaction on the model side)   
+**Model:** The data. Does **_NOT_** depend on the controller. Not even a little! It doesn't modify the data, it doesn't do anything except hold the data in some way shape or form (E.G. hibernate or another ORM to take care of database interaction on the model side)   
 
   
 **View:** Is a bit trickier. The view in a strict MVC is the layer that the user interacts with. It can or can not depend on the controller but should always be independent from the model. In cases where the view depends on the controller the view often is combined with the controller, a lot of android applications will mesh these two layers slightly where the button clicks will get attached in the controller for the activities.   
@@ -93,7 +93,7 @@ class Person() extends BaseModel {
     return m_name;
   }
 }
-</pre> It may seem like it is slightly redundant to pass the person around the controller and view but with this setup we can swap in a new view that implements a new technology and don&#8217;t even have to bat an eye at how the controller will react. It will just work. 
+</pre> It may seem like it is slightly redundant to pass the person around the controller and view but with this setup we can swap in a new view that implements a new technology and don't even have to bat an eye at how the controller will react. It will just work. 
 
   
 
