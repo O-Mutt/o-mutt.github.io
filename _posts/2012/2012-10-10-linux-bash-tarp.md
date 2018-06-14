@@ -4,10 +4,9 @@ title: Linux Bash TARP!
 date: 2012-10-10T21:20:51+00:00
 layout: post
 permalink: /linux-bash-tarp/
-categories:
+tags:
   - Linux
   - OS
-tags:
   - bash
   - linux
   - terminal
