@@ -4,8 +4,10 @@ title: Staying in Touch
 date: 2012-10-10T21:30:03+00:00
 layout: post
 permalink: /staying-in-touch/
-categories:
+tags:
   - Business
+  - Friends
+  - Life
 ---
 ### Staying in touch with old coworkers and employers
 
@@ -18,6 +20,6 @@ During this phone conversation I have/was referring to many of the documents tha
 ### Reasons
 
   * **Resume boosters:** what company will look poorly on you helping out a past employer (no need to mention compensation)
-  * **References:** the better info you share the better they will think about you later, even if it is just a bar talk with someone you will some day meet&#8230;
+  * **References:** the better info you share the better they will think about you later, even if it is just a bar talk with someone you will some day meet...
   * **Care:** where you work and who you work for should matter to you even AFTER you work there
   * **Money:** most of the time they will pay you well

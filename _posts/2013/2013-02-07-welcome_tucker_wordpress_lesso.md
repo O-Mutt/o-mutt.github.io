@@ -5,18 +5,16 @@ date: 2013-02-07T14:52:57+00:00
 author: Matt Erickson (ME)
 layout: post
 permalink: /welcome_tucker_wordpress_lesso/
-categories:
-  - Development
-  - PHP
-  - Web
 tags:
-  - PHP
-  - Wordpress
-  - WP
+	- Web
+  	- PHP
+  	- Wordpress
+  	- WP
+	- Development
 ---
 First, I wanted to welcome a new contributor to the site, [Tucker Combs](/author/tucker-combs/ "Welcome Tucker Combs")! Tucker is, by profession, a marketing/advertiser. With that said I know that, from our days together in college, he has always had passion for technology and what developers love, creating. I want to welcome and thank him for joining in on helping us solve some of the struggles we go through learning technologies.  
   
-Now, on to the meat and potatoes of today's post. Recently, the theme that I have based my site off (Living Journal) updated. While that wouldn&#8217;t have been a big deal because I incorrectly made my child theme by just copy-pasting the entire theme, I wanted the latest and greatest. So I attempted to update and move to a correctly made child theme. Needless to say I was left with the &#8216;White Screen of Death&#8217; for a WP-Admin screen. After lots of reworking I was able to recover by starting from scratch with a local copy. However, I am dissatisfied with some things in this theme as a whole, one of which being the lack of ability to add a Google Author tag to the byline (the date posted by &#8216;name&#8217; above these posts). So I looked through the function.php file to find out what exactly I am doing and how it does its thing. Well, here is what I found: 
+Now, on to the meat and potatoes of today's post. Recently, the theme that I have based my site off (Living Journal) updated. While that wouldn't have been a big deal because I incorrectly made my child theme by just copy-pasting the entire theme, I wanted the latest and greatest. So I attempted to update and move to a correctly made child theme. Needless to say I was left with the 'White Screen of Death' for a WP-Admin screen. After lots of reworking I was able to recover by starting from scratch with a local copy. However, I am dissatisfied with some things in this theme as a whole, one of which being the lack of ability to add a Google Author tag to the byline (the date posted by 'name' above these posts). So I looked through the function.php file to find out what exactly I am doing and how it does its thing. Well, here is what I found: 
 
 ``` php
 if ( ! function_exists( 'livingjournal_posted_on' ) ) :
@@ -74,7 +72,7 @@ printf("%1$s %2$s", 'Knock Knock', 'Who\'s there?');
 ```
 Piece by piece: 
 
-**Note &#8221; are not the same as &#8216;. Double quotes get used for evaluating params** 
+**Note " are not the same as '. Double quotes get used for evaluating params** 
 
 ``` php
 %1$s
@@ -84,7 +82,7 @@ Piece by piece:
 ``` php
 'Knock Knock'
 ```
- is the string literal, similar to &#8216;Who\&#8217;s there?&#8217; but because we have a single quote within a single quote we must &#8216;escape&#8217; it with a backslash. The only other explanation you may need is that I use a google plus authorship plugin to add a &#8216;gplus\_author\_url&#8217; to the author meta data. As a last note most author data have two methods associated to them: 
+ is the string literal, similar to 'Who\'s there?' but because we have a single quote within a single quote we must 'escape' it with a backslash. The only other explanation you may need is that I use a google plus authorship plugin to add a 'gplus\_author\_url' to the author meta data. As a last note most author data have two methods associated to them: 
 
 ``` php
 the_author_**object**
@@ -94,4 +92,4 @@ the_author_**object**
 ``` php
 GET_the_author_**object**
 ```
-. If you want to simply print the value to the page the\_author\_object works but you must use the getter if you&#8217;d like to use it inside the code. Thanks for reading and hopefully I helped, (ME)
+. If you want to simply print the value to the page the\_author\_object works but you must use the getter if you'd like to use it inside the code. Thanks for reading and hopefully I helped, (ME)

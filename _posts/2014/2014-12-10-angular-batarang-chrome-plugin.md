@@ -12,11 +12,11 @@ categories:
   - Javascript
   - Web
 ---
-This morning I sat down at my computer to start work. Pull up our bug tracking system to see what is going on. Well, bug in the software, looks like something in angular. Pull up the page in the specified environment and hit f12. Woh, woh, woh, what is this &#8216;angular hint&#8217; in my console?!?   
+This morning I sat down at my computer to start work. Pull up our bug tracking system to see what is going on. Well, bug in the software, looks like something in angular. Pull up the page in the specified environment and hit f12. Woh, woh, woh, what is this 'angular hint' in my console?!?   
 
 ## Angular Batarang
 
-<a href="https://chrome.google.com/webstore/detail/angularjs-batarang/ighdmehidhipcmcojjgiloacoafjmpfk?hl=en" title="Angular Batarang plugin" target="_blank">Angular batarang</a> is a google chrome plugin that helps working with and debugging angular tons easier, well, it didn&#8217;t really before but it does now! The plugin updated and now it seems to work pretty slick. You now have easier access to angular scopes and angular hinting via angular batarang. 
+<a href="https://chrome.google.com/webstore/detail/angularjs-batarang/ighdmehidhipcmcojjgiloacoafjmpfk?hl=en" title="Angular Batarang plugin" target="_blank">Angular batarang</a> is a google chrome plugin that helps working with and debugging angular tons easier, well, it didn't really before but it does now! The plugin updated and now it seems to work pretty slick. You now have easier access to angular scopes and angular hinting via angular batarang. 
 
 <img src="https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/img/angular_batarang1.png?fit=750%2C750" alt="angular_batarang" class="alignnone size-large wp-image-728" data-recalc-dims="1" /> 
 

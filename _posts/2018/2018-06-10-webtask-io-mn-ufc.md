@@ -4,13 +4,8 @@ date: 2018-06-10T12:00:00+00:00
 author: Matt Erickson (ME)
 layout: post
 permalink: /webtask-io-mnufc/
-spacious_page_layout:
-  - default_layout
-categories:
-  - development
-  - node
-  - nodejs
 tags:
+  - nodejs
   - webtask
   - webtask.io
   - node
