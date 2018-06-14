@@ -17,7 +17,7 @@ comments: false
 ## Work
 ### ByME
 -----
-  Another highlight of my college years came through collaboration with my high school friend, Chad Olsen. We merged my technological savvy and his business idea to create a company based on a mobile application – thus, [ByME](http://www.collegeby.me/) was born. Over the span of three years, I gave a great deal of time and creative energy in leading a small team of programmers to design and construct this successful product.
+  Another highlight of my college years came through collaboration with my high school friend, Chad Olsen. We merged my technological savvy and his business idea to create a company based on a mobile application – thus, (ByME)[https://www.getbyme.com/] was born. Over the span of three years, I gave a great deal of time and creative energy in leading a small team of programmers to design and construct this successful product.
 ### Boston
 -----
   After graduation and a farewell to family and friends, I set off to Boston, Massachusetts, having accepted a job at a small mobile application development company. Although this position only lasted six months, due to the organization’s financial collapse, I learned a lot about programming and professionalism in the face of tough circumstances. From this job, I transitioned with relative ease to my current employer.
