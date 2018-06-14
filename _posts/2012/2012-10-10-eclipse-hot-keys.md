@@ -16,9 +16,9 @@ Note: _This information is meant to be generic to Eclipse as a whole but for ref
 
 # Eclipse In the company I work for we use 
 
-(Eclipse)[http://www.eclipse.org/] as our primary IDE for development. Eclipse is a project by &#8220;The Eclipse Foundation&#8221;. It is an IDE that has MANY, many plug-ins that range from official ones such as the <a href="http://www.jboss.org/tools/download" rel="external">JBoss plugin</a> to make using jboss technologies like drools rules easier to work with to from within eclipse to <a href="http://andrei.gmxhome.de/anyedit/" rel="external">AnyEdit</a> which is something I use to remove trailing spaces and tabs from my code (for checkstyle purposes) 
+(Eclipse)[http://www.eclipse.org/] as our primary IDE for development. Eclipse is a project by 'The Eclipse Foundation". It is an IDE that has MANY, many plug-ins that range from official ones such as the <a href="http://www.jboss.org/tools/download" rel="external">JBoss plugin</a> to make using jboss technologies like drools rules easier to work with to from within eclipse to <a href="http://andrei.gmxhome.de/anyedit/" rel="external">AnyEdit</a> which is something I use to remove trailing spaces and tabs from my code (for checkstyle purposes) 
 
-### Hot-Keys By using Eclipse efficiently you can decrease the amount of time you spend on tedious things and increase your productivity significantly Firstly, moving quickly without letting your hands leave the keyboard can speed you up more than you would expect. So lets look at some of those hot-keys, most of which are built into OS&#8217;. 
+### Hot-Keys By using Eclipse efficiently you can decrease the amount of time you spend on tedious things and increase your productivity significantly Firstly, moving quickly without letting your hands leave the keyboard can speed you up more than you would expect. So lets look at some of those hot-keys, most of which are built into OS'. 
 
 <div class="smallMargin">
   <pre class="brush: plain; title: ; notranslate" title="">Ctrl+c :copy
@@ -39,11 +39,11 @@ Ctrl+y :redo</pre>
   
   <br /> 
   
-  <pre class="brush: plain; title: ; notranslate" title="">Ctrl+Shift+r </pre> will open an &#8216;Open Resource&#8217; window that allows you to quickly search your workspace. Inside of this search you can use &#8216;*&#8217; to get a wildcard for any string forward or backward or &#8216;?&#8217; for any char. Example: applicationContext-ws-stuff.xml could be found by searching app*con*ws-stuff* or even shorter as app*con*stuff* may give you a short list. Again if you are using camel-case you can use just the FIRST-LETTER of the word. Example: java file: TeacherToStudent.java could be found by typing TTS.
+  <pre class="brush: plain; title: ; notranslate" title="">Ctrl+Shift+r </pre> will open an 'Open Resource' window that allows you to quickly search your workspace. Inside of this search you can use '*' to get a wildcard for any string forward or backward or '?' for any char. Example: applicationContext-ws-stuff.xml could be found by searching app*con*ws-stuff* or even shorter as app*con*stuff* may give you a short list. Again if you are using camel-case you can use just the FIRST-LETTER of the word. Example: java file: TeacherToStudent.java could be found by typing TTS.
   
   <br /><br /> 
   
-  <pre class="brush: plain; title: ; notranslate" title="">Ctrl+Shift+t</pre> will open an &#8216;Open by Type&#8217; window that works essentially the same as the Open Resource window
+  <pre class="brush: plain; title: ; notranslate" title="">Ctrl+Shift+t</pre> will open an 'Open by Type' window that works essentially the same as the Open Resource window
   
   <br /> 
   
@@ -71,5 +71,5 @@ Ctrl+y :redo</pre>
   
   <br /> An honorable mention, although not a hot-key, is the 
   
-  <pre class="brush: plain; title: ; notranslate" title="">'Replace with Local History' and 'Compare with Local History'</pre> menu items. There have been many times when I changed a significant amount of code only to come back the next day to realize that everything is broken and I have no idea what the method/class I changed was supposed to do. Well this is where your butt will be saved. Right Click the class you changed->Compare/Replace With->Local History will bring up a new menu that will show you past changes (saying it has the history still stored). This has saved my butt in the past and I&#8217;m sure it will again in the future. I know a lot of these seem like they may be useless and trivial clicks but once you get used to using them you will be able to move so quickly through your files and eclipse that you will never fall out of &#8216;programming mode&#8217; having to copy, paste things around a file.
+  <pre class="brush: plain; title: ; notranslate" title="">'Replace with Local History' and 'Compare with Local History'</pre> menu items. There have been many times when I changed a significant amount of code only to come back the next day to realize that everything is broken and I have no idea what the method/class I changed was supposed to do. Well this is where your butt will be saved. Right Click the class you changed->Compare/Replace With->Local History will bring up a new menu that will show you past changes (saying it has the history still stored). This has saved my butt in the past and I'm sure it will again in the future. I know a lot of these seem like they may be useless and trivial clicks but once you get used to using them you will be able to move so quickly through your files and eclipse that you will never fall out of 'programming mode' having to copy, paste things around a file.
 </div>

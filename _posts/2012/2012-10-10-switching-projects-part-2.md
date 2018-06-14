@@ -4,7 +4,7 @@ title: Switching Projects Part 2
 date: 2012-10-10T21:31:10+00:00
 layout: post
 permalink: /switching-projects-part-2/
-categories:
+tags:
   - Development
 ---
 Wednesday September 12th.  I had 2 meetings this day, one was with the tech lead of the project to make sure I knew what I was going to be doing and a broad spectrum overview of the goal for the next release, the second was with the PM (project manager) to explain the timeline with myself and the other engineer and lay out our project dev plan.

@@ -1,6 +1,6 @@
 ---
 id: 48
-title: 'jQuery UI Autocomplete with ajax&#8217;d custom JSONs'
+title: 'jQuery UI Autocomplete with ajax'd custom JSONs'
 date: 2012-10-10T21:17:04+00:00
 layout: post
 permalink: /jquery-autocomplete/
@@ -21,16 +21,16 @@ So as of now you should probably already know what jquery is (javascript wrapper
 
 ### Technicals and Code
 
-The code below will give you a straight forward look at a jQuery autocomplete text box. It is an input box and some jquery code to setup the box. Super simple&#8230; moving on.
+The code below will give you a straight forward look at a jQuery autocomplete text box. It is an input box and some jquery code to setup the box. Super simple... moving on.
 
-<pre class="brush: jscript; title: ; notranslate" title="">&lt;head&gt;
+<pre class="brush: jscript; title: ; notranslate" title=""><head>
   jQuery("#name").autocomplete({
     source: {'abc','def','ghi'....}
   });
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;input id="name"&gt;
-&lt;/body&gt;
+</head>
+<body>
+  <input id="name">
+</body>
 </pre>
 
 Next we will only focus on the jquery aspect and add the ajax calls to our php/struts/asp whatever method
@@ -52,7 +52,7 @@ Next we will only focus on the jquery aspect and add the ajax calls to our php/s
 });
 </pre>
 
-This is still fairly straight forward. Once the custom JSON gets thrown into this mix is when we really start to feel like we are doing something. Lets start by looking at the JSON we build to send BACK to the page so we know what kind of data we are dealing with, then we can get rid of the &#8216;GREAT SUCCESS&#8217; comment
+This is still fairly straight forward. Once the custom JSON gets thrown into this mix is when we really start to feel like we are doing something. Lets start by looking at the JSON we build to send BACK to the page so we know what kind of data we are dealing with, then we can get rid of the 'GREAT SUCCESS' comment
 
 <pre class="brush: java; title: ; notranslate" title="">//Java
 JSONArray array = new JSONArray();
@@ -87,9 +87,9 @@ The $.map is the function that really does the magic hear. It treats the respons
 <pre class="brush: jscript; title: ; notranslate" title="">jQuery("#name").autocomplete( {
 .....
 }).data("autocomplete")._renderItem = function(ul, item) {
-  return $("&lt;li&gt;")
+  return $("<li>")
     .data("item.autocomplete", item)
-    .append("&lt;a&gt;" + item.name + "&lt;/a&gt;")
+    .append("<a>" + item.name + "</a>")
     .appendTo(ul);
 };
 </pre>
