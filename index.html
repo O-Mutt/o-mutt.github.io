@@ -1,6 +1,5 @@
 ---
 layout: page
-title: (ME)
 subtitle: Tech, soccer, bicycles, woodworking, life, and beer. What more could you ask for from a blog?
 use-site-title: true
 ---
@@ -9,7 +8,9 @@ use-site-title: true
   {% for post in paginator.posts %}
   <article class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
-	  <h2 class="post-title">{{ post.title }}</h2>
+    {% if post.title %}
+    <h2 class="post-title">{{ post.title }}</h2>
+    {% endif %}
 
 	  {% if post.subtitle %}
 	  <h3 class="post-subtitle">
