@@ -9,6 +9,7 @@ tags:
   - personal
   - "o'erick"
   - "o'keefe"
+  - oerickson
 ---
 My wife rocks
 =====
