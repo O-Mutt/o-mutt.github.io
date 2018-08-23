@@ -31,7 +31,7 @@ navbar-links:
     - Personal: "tags/#personal"
     - Soccer: "tags/#Soccer"
   About Me: "aboutme"
-  Resume: "{{ site.url }}/Resume"
+  Resume: "Resume"
 
 # --- Local development options ---
 
