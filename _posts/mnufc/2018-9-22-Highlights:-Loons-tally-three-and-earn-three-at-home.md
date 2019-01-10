@@ -1,5 +1,5 @@
 ---
-title: Highlights: Loons tally three and earn three at home.
+title: Loons tally three and earn three at home.
 date: Sat Sep 22 2018 00:00:00 GMT+0000 (UTC)
 permalink: 2018_9_22_highlights_loons_tally_three_and_earn_three_at_home_md
 excerpt: Sebastian Blanco, Steve Clark and the Portland Timbers take on Darwin Quintero, Romario Ibarra and Minnesota United FC as both clubs jockey for position in the Western Conference.
