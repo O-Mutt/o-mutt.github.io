@@ -1,7 +1,7 @@
 ---
-id: 48
-title: 'jQuery UI Autocomplete with ajax'd custom JSONs'
+title: jQuery UI Autocomplete with ajax'd custom JSONs
 date: 2012-10-10T21:17:04+00:00
+author: Matt Erickson (ME)
 layout: post
 permalink: /jquery-autocomplete/
 tags:
@@ -15,15 +15,18 @@ tags:
   - jquery-ui
   - json
 ---
-### Back story
+# JQuery Autocomplete
 
-So as of now you should probably already know what jquery is (javascript wrapper library to make it significantly easier to deal with and read) also JSON objects (much like maps [key: value]) and ajax (<a href="http://en.wikipedia.org/wiki/Ajax_(programming)" rel="external">ajax wiki -_-</a>). Well in this tutorial we are going to slam these all together.
+## Back story
+
+So as of now you should probably already know what jquery is (javascript wrapper library to make it significantly easier to deal with and read) also JSON objects (much like maps [key: value]) and ajax [Ajax Wiki](<http://en.wikipedia.org/wiki/Ajax_(programming)>). Well in this tutorial we are going to slam these all together.
 
 ### Technicals and Code
 
 The code below will give you a straight forward look at a jQuery autocomplete text box. It is an input box and some jquery code to setup the box. Super simple... moving on.
 
-<pre class="brush: jscript; title: ; notranslate" title=""><head>
+```javascript
+<head>
   jQuery("#name").autocomplete({
     source: {'abc','def','ghi'....}
   });
@@ -31,11 +34,12 @@ The code below will give you a straight forward look at a jQuery autocomplete te
 <body>
   <input id="name">
 </body>
-</pre>
+```
 
 Next we will only focus on the jquery aspect and add the ajax calls to our php/struts/asp whatever method
 
-<pre class="brush: jscript; title: ; notranslate" title="">jQuery("#name").autocomplete( {
+```javascript
+jQuery("#name").autocomplete( {
  source: function (request, response) {
    $.ajax({
      url: 'ENTER YOUR URL HERE',
@@ -50,11 +54,12 @@ Next we will only focus on the jquery aspect and add the ajax calls to our php/s
    });//end ajax
  }//end source of autocomplete
 });
-</pre>
+```
 
 This is still fairly straight forward. Once the custom JSON gets thrown into this mix is when we really start to feel like we are doing something. Lets start by looking at the JSON we build to send BACK to the page so we know what kind of data we are dealing with, then we can get rid of the 'GREAT SUCCESS' comment
 
-<pre class="brush: java; title: ; notranslate" title="">//Java
+```java
+//Java
 JSONArray array = new JSONArray();
 JSONObject object = null;
 for (CustomObj obj : m_objects) {
@@ -65,9 +70,10 @@ for (CustomObj obj : m_objects) {
   array.put(object);
 }
 //end Java
-</pre>
+```
 
-<pre class="brush: jscript; title: ; notranslate" title="">//jQuery
+```javascript
+//jQuery
 //skipping autocomplete start and moving straight to success callback
 success: function(data) {//data is the object that is returned
   response($.map(data, function(el) {
@@ -80,11 +86,12 @@ success: function(data) {//data is the object that is returned
   }));
 }
 //end jQuery
-</pre>
+```
 
 The $.map is the function that really does the magic hear. It treats the response as a map and makes the new objects to return. In the return we build the object from the corresponding java JSON we built. We are mostly there now. All we have to do is tell jQuery what it should do with the values, since, by default it expects a label and a value.
 
-<pre class="brush: jscript; title: ; notranslate" title="">jQuery("#name").autocomplete( {
+```javascript
+jQuery("#name").autocomplete( {
 .....
 }).data("autocomplete")._renderItem = function(ul, item) {
   return $("<li>")
@@ -92,7 +99,7 @@ The $.map is the function that really does the magic hear. It treats the respons
     .append("<a>" + item.name + "</a>")
     .appendTo(ul);
 };
-</pre>
+```
 
 This is a fairly straightforward function. It takes the data from the autocomplete._rederItem function and replaces it with our own function. The item in this case, referred to in the <a> with item.name, the .name refers to the object we created in the success callback. You could use anything you desired there (in our example here we can use .name, .value, or .year).
 

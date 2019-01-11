@@ -83,7 +83,7 @@ social-network-links:
 #  spotify: yourname
 #  telephone: +14159998888
   steam: mutmatt
-#  twitch: yourname
+  twitch: mutmatt
   yelp: mutmatt
 
 # --- General options --- #
@@ -228,6 +228,7 @@ exclude:
   - LICENSE
   - README.md
   - Vagrantfile
+  - markdownlint.json
 
 # prose.io config
 prose:

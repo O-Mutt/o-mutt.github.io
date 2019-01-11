@@ -20,14 +20,15 @@ So, I have had the luxury of working with just under a butt load of technologies
     Ex:
   </div>
   
-  <pre class="brush: java; title: ; notranslate" title="">
+  ```java
+
 rule "This is a short description of the rule"
 when
 $derp : MyObject(name == "Matt")
 then
 $derp.lastName.setValue("Erickson")
 end
-</pre>
+```
   
   <div>
     Lets break that down line by line:
@@ -45,7 +46,8 @@ end
     <span style="font-weight: bold; text-decoration: underline;">Line 3:</span>$derp : MyObject(name == 'Matt") - This is actually where the rule's business logic lives for determining if we should run the right hand side logic on this object. This line is <strong>VERY </strong>important. The '$variableName' notation is common in drools but is notnecessarily, we can just use 'derp' as a variable but you can see why we don't, forreadabilitysake. The ':' item is a MUST, this is actually what assigns the object to the variable when the rules match. This is the part of drools that is kinda Quirky, if a new line is added. Say we insert a line AFTER line 3, we'll call it 4a (for line 4 alternative):
   </div>
   
-  <pre class="brush: java; title: ; notranslate" title="">MyObject(age > 23)</pre>
+  ```java
+MyObject(age > 23)```
   
   <div>
     This line will ask the very same 'MyObject' if it <em style="font-weight: bold;">ALSO</em> has an age attribute that is greater than 23.
@@ -55,22 +57,25 @@ end
     Before we move on I would like to look at a few ways this line can be modified to have the same behavior. Lets remove line 4a and append that logic to line 3:
   </div>
   
-  <pre class="brush: java; title: ; notranslate" title="">$derp : MyObject(name == "Matt" &amp;&amp; age > 23)</pre>
+  ```java
+$derp : MyObject(name == "Matt" &amp;&amp; age > 23)```
   
   <div>
     Simple enough. Here is another:
   </div>
   
-  <pre class="brush: java; title: ; notranslate" title="">$derp : MyObject(name == "Matt")
-and MyObject(age > 23)</pre>
+  ```java
+$derp : MyObject(name == "Matt")
+and MyObject(age > 23)```
   
   <div>
     This is nearly identical to 4a but with more explicit definition of what we want out of this rule. Drools, by default, treats new lines in the left hand side of a rule as 'AND' statements. So this can be left out or added as you see fit, I would pick one and stick with it though. Similarly we can change the behavior with an '||' and an 'or'. Ex.
   </div>
   
-  <pre class="brush: java; title: ; notranslate" title="">$derp : MyObject(name == "Matt" ||age > 23)
+  ```java
+$derp : MyObject(name == "Matt" ||age > 23)
 $derp : MyObject(name == "Matt")
-or MyObject(age > 23)</pre>
+or MyObject(age > 23)```
   
   <div>
     These are fairly self explanatory after learning how the and works.
