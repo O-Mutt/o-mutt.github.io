@@ -18,7 +18,8 @@ tags:
 ---
 We all love IE, right?!? WRONG! Well now with jquery bumping out the browser detection we have to have some way to deal with IE and gracefully degradating our features. I found a pretty neat way of dealing with browser detection that I have integrated at a very root layer for my javascript. 
 
-<pre class="brush: jscript; title: ; notranslate" title="">(function (window, navigator) {
+```javascript
+(function (window, navigator) {
     window.Browser = {
         IsIe: function () {
             return navigator.appVersion.indexOf("MSIE") !== -1;
@@ -37,7 +38,9 @@ We all love IE, right?!? WRONG! Well now with jquery bumping out the browser det
         }
     };
 }(window, navigator));
-</pre> Let's pick this guy apart, shall we? First off, we wrap the whole thing an Immediately-Invoked Function Expression, or IIFE (if-ee). This lets us get some immediate functionality as soon as the JS is hit, it also, based on the params passed into the function, have local references to object that live on the js page scope so there is much faster retrieval time. 
+```
+
+Let's pick this guy apart, shall we? First off, we wrap the whole thing an Immediately-Invoked Function Expression, or IIFE (if-ee). This lets us get some immediate functionality as soon as the JS is hit, it also, based on the params passed into the function, have local references to object that live on the js page scope so there is much faster retrieval time. 
 
 
   
@@ -45,12 +48,15 @@ E.G.
   
 
 
-<pre class="brush: jscript; title: ; notranslate" title="">(function (yellowSubmarine) {
+```javascript
+(function (yellowSubmarine) {
     yellowSubmarine.on('click', function(event) {
         console.log("do click things");
     });
 }(jQuery));
-</pre> This will set the var \`yellowSubmarine\` to the jQuery function. Pretty normal javascript pattern. Moving on.
+```
+
+This will set the var \`yellowSubmarine\` to the jQuery function. Pretty normal javascript pattern. Moving on.
 
 
   
@@ -62,7 +68,8 @@ We grab \`window\` and set a new variable on it named \`Browser\`. This is where
   
 For example; in the previous post I wrote about the custom select box and mentioned that it will not work in IE8-10. Here is how i chose to disable it using the example code above: 
 
-<pre class="brush: jscript; title: ; notranslate" title="">$(function() {
+```javascript
+$(function() {
     if (window.Browser.IsIe() && window.Browser.Version() <= 10) {
         var selectBoxes = $(".custom-select-box");
         for (var i = 0; i < selectBoxes.length; i++) {
@@ -70,4 +77,6 @@ For example; in the previous post I wrote about the custom select box and mentio
         }
     }
 };
-</pre> No regex, easily readable. One line, two condition if statement. Doesn't get much better than that in terms of detecting and fixing IE. This fix was to 'gracefully degradate' IE10-IE8 (our supported browsers) by just disabling the custom styling. DONE!
+```
+
+No regex, easily readable. One line, two condition if statement. Doesn't get much better than that in terms of detecting and fixing IE. This fix was to 'gracefully degradate' IE10-IE8 (our supported browsers) by just disabling the custom styling. DONE!

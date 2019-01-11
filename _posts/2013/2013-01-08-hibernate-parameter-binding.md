@@ -14,10 +14,10 @@ gh-badge: [star, watch, follow, fork]
 ---
 So, recently, I undertook the task of writing a quick project. From the ground up. I decided on a tech stack that I was familiar with and fit the criteria that was set forth by the project; struts2, hibernate, maven, java. Setup was fairly simple due to my knowledge of maven, but that is not what you are here to learn. 
 
-## Hibernate So the first thing I did was setup a HibernateUtils class to ensure I always had an open session to access the database. 
+# Hibernate
 
+So the first thing I did was setup a HibernateUtils class to ensure I always had an open session to access the database.
 
-  
 **Note:** this class is fairly easy to find with a google search. 
 
 ``` java
@@ -48,12 +48,11 @@ public class HibernateUtils {
   }
 ```
 
-  
 Now is the part you were waiting for, **parameters**. 
   
 So lets say I have a list of objects with names in my DB. I want object with name 'world". The **_<u>INCORRECT</strong>_</u> would be as follows:
   
-THIS IS WRONG!!!! 
+THIS IS WRONG!!!!
 
 ``` java
 Session session = null;
@@ -63,6 +62,7 @@ String hqlQuery = "FROM " + MyObject.class.getName() + " obj WHERE obj.name = '"
 List<MyObject> 
 returnedObjects =  (List<MyObject>) session.createQuery(hqlQuery).list();
 ```
+
  THIS IS WRONG!
   
 Clearly this is wrong, we should NEVER use any input possibility as a parameter in a query directly. We could have all sorts of funky characters that could break our query (e.g. *, ', ', &, ;, etc.). So what ever will we do? Simple, we use it as the built in setParameter in hibernate! 
@@ -74,11 +74,13 @@ session.beginTransaction();
 String hqlQuery = "FROM " + MyObject.class.getName() + " obj WHERE obj.name = :name";
 List<MyObject> returnedObjects = (List<MyObject>) session.createQuery(hqlQuery).setParameter("name", name).list();
 ```
+
 This is just one example of how to use this parameter setup, there are several more. We can explicitly tell hibernate what type we have like this: 
 
 ``` java
 List<MyObject> returnedObjects = (List<MyObject>) session.createQuery(hqlQuery).setString("name", name).list();
 ```
+
  We can also have multiple parameters like if we want all active objects with name 'world" (indexed by 0): 
 
 ``` java
@@ -86,6 +88,7 @@ String hqlQuery = "FROM " + MyObject.class.getName() + " obj WHERE obj.name = ? 
 List<MyObject> returnedObjects = 
   (List<MyObject>) session.createQuery(hqlQuery).setParameter(0, name).setParameter(1, true).list();
 ``` 
+
 Even better, we can use objects to match! This is extremely useful if you have a large object with many parameters being set. 
 
 ``` java
@@ -99,6 +102,4 @@ List<MyObject> returnedObjects =
   (List<MyObject>) session.createQuery(hqlQuery).setParameter("searchObj", searchObject).list();
 ```
 
-
-  
 Needless to say, you should always choose some type of parametrization when writing HQL. I prefer **Name Parameters** (the :theValue) for clarity and ease of use.

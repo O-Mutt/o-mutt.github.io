@@ -27,7 +27,8 @@ Moving into the point, that I know I have failed at in the past:
   
 
 
-<pre class="brush: java; title: ; notranslate" title="">static class MeController() extends BaseController {
+```java
+static class MeController() extends BaseController {
   private static MeView s_view;
 }
 class Person() extends BaseModel {
@@ -40,9 +41,12 @@ class Person() extends BaseModel {
     return m_name;
   }
 }
-</pre> Proper MVC use of a model: 
+```
 
-<pre class="brush: java; title: ; notranslate" title="">class MeController() extends BaseController {
+Proper MVC use of a model: 
+
+```java
+class MeController() extends BaseController {
   private MeView m_view;
 
   public void DoClickButton(int personIndex, String name) {
@@ -59,14 +63,17 @@ class Person() extends BaseModel {
     return m_name;
   }
 }
-</pre> So, here, we see the main difference in this code: the model in the first example tells the controller to refresh the view. Now this model cannot be used by any other class unless every interaction with a person is meant to refresh that one list every time. Not only is the model not reusable for different classes but if we decide to give the user an option to have a grid or a list, which is becoming more and more common in web   -  and mobile, we cannot because we are attached to the list in the controller by hard coding. 
+```
+
+So, here, we see the main difference in this code: the model in the first example tells the controller to refresh the view. Now this model cannot be used by any other class unless every interaction with a person is meant to refresh that one list every time. Not only is the model not reusable for different classes but if we decide to give the user an option to have a grid or a list, which is becoming more and more common in web   -  and mobile, we cannot because we are attached to the list in the controller by hard coding. 
 
   
 
   
 So this takes care of re-usability of the model but what about the controller. This is all dependent on using a specific view. If we decide that this version of jQuery is not effective on mobile or what ever the case is we need to find all references to m\_view.refresh(); and change it to (trivial but blocking) m\_view.reload();. This is where separating the view and the controller comes in. If we open up the MeView and add this: 
 
-<pre class="brush: java; title: ; notranslate" title="">class MeController() extends BaseController {
+```java
+class MeController() extends BaseController {
   private MeView m_view;
 
   public void DoClickButton(Person person, String name) {
@@ -93,7 +100,9 @@ class Person() extends BaseModel {
     return m_name;
   }
 }
-</pre> It may seem like it is slightly redundant to pass the person around the controller and view but with this setup we can swap in a new view that implements a new technology and don't even have to bat an eye at how the controller will react. It will just work. 
+```
+
+It may seem like it is slightly redundant to pass the person around the controller and view but with this setup we can swap in a new view that implements a new technology and don't even have to bat an eye at how the controller will react. It will just work. 
 
   
 

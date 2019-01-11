@@ -2,7 +2,7 @@
 title: Houston vs. Minnesota | July 7, 2018
 date: Sat Jul 07 2018 00:00:00 GMT+0000 (UTC)
 permalink: 2018_7_7_houston_vs_minnesota_md
-excerpt: HIGHLIGHTS: Houston vs. Minnesota | July 7, 2018
+excerpt: HIGHLIGHTS - Houston vs. Minnesota | July 7, 2018
 author: Matt Erickson (ME)
 layout: post
 tags:
