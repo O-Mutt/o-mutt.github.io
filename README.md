@@ -125,9 +125,9 @@ To use Staticman, you first need to invite `staticmanlab` as a collaborator to y
 Optional: You may want to configure a webhook to prevent old inactive branches (representing approved comments) from stacking up.  You can refer to [Staticman's documentation](https://staticman.net/docs/webhooks) for details.  Make sure to input the **Payload URL** according to your chosen `endpoint`.  For example, the default `endpoint` is `https://staticman3.herokuapp.com/v3/entry/github/`, so the corresponding **Payload URL** should be `https://staticman3.herokuapp.com/v1/webhook`.
 
 
-#### Just-Comments comments
+#### JustComments
 
-To use Just-comments you first need to have an account. After you just need to copy the API key to the just-comments property in `_config.yml` file.
+To use JustComments you first need to have an account. After you just need to copy the API key to the `just-comments` property in `_config.yml` file.
 
 ### Adding Google Analytics to track page views
 
