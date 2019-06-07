@@ -84,7 +84,6 @@ social-network-links:
   github: mutmatt
   twitter: mutmatt
   reddit: mutmatt
-#  google-plus: +DeanAttali
   linkedin: matthewerickson
 #  xing: yourname
   stackoverflow: "593154/mutmatt"
@@ -101,7 +100,6 @@ social-network-links:
 share-links-active:
   twitter: true
   facebook: true
-  google: false
   linkedin: true
 
 # How to display the link to the website in the footer
