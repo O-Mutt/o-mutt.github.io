@@ -15,6 +15,68 @@ tags:
   - select
   - selectbox
 ---
+<style>
+  .full-width {
+    width: 100%;
+  }
+  .custom-select-box {
+    position: relative;
+  }
+
+  .custom-select-box:after {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    padding: .375rem .75rem;
+    margin-bottom: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: black;
+    text-align: center;
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+
+
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    padding: 10px 13px;
+    width: auto;
+    height: 100%;
+    content: "\f107";
+    font-family: FontAwesome;
+    position: absolute;
+    right: 0;
+    top: 0px;
+    pointer-events: none; 
+  }
+    
+  select.form-control {
+        outline: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        cursor: pointer; 
+        
+        color: #000000;
+        font-weight: normal;
+  }
+  select.form-control option {
+    color: white;
+  }
+  
+  /* Targetting Webkit browsers only. FF will show the dropdown arrow with so much padding. */
+  @media screen and (-webkit-min-device-pixel-ratio:0) {
+    select.form-control {
+        padding-right: 18px;
+    }
+  }
+</style>
 
 <label class="custom-select-box full-width">
   <select class="form-control">
@@ -118,7 +180,7 @@ You will probably also notice that I don't touch any of the nasty hacks that cou
 Your output should look something like this:
   
 
-<img src="https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/img/custom_select-300x28.png?fit=300%2C28" alt="Custom_Select" class="alignnone size-medium wp-image-554" srcset="https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/img/custom_select.png?zoom=2&resize=600%2C60 1200w, https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/img/custom_select.png?zoom=3&resize=600%2C60 1800w" sizes="(max-width: 600px) 100vw, 600px" data-recalc-dims="1" /> 
+<img src="https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/img/custom_select-300x28.png?fit=300%2C28" alt="Custom_Select" class="alignnone size-medium wp-image-554" srcset="https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/img/custom_select.png?zoom=2&resize=600%2C60 1200w, https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/img/custom_select.png?zoom=3&resize=600%2C60 1800w" data-recalc-dims="1" /> 
   
 Unlike some examples i've seen out on the internet here is an actual WORKING example of how this is supposed to look and behave in modern browsers. 
 
