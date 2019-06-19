@@ -155,18 +155,21 @@ img {
 
 @media only screen and (min-width: 768px) {
   .navbar-custom {
-    padding: 20px 0;
+    padding: 20px 10px;
     -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
     -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
     transition: background .5s ease-in-out,padding .5s ease-in-out;
   }
 
   .navbar-custom.top-nav-short {
-    padding: 0;
+    padding: 0 10px;
   }
 }
 
 .navbar-custom .avatar-container {
+  -webkit-transition: width .5s ease-in-out,padding .5s ease-in-out;
+  -moz-transition: width .5s ease-in-out,padding .5s ease-in-out;
+  transition: width .5s ease-in-out,padding .5s ease-in-out;
   position: absolute;
   left: 50%;
   width: 50px;
@@ -189,6 +192,10 @@ img {
   border-radius: 50%;
   {% endunless %}
   display: block;
+}
+.navbar-custom.navbar-custom.top-nav-short .avatar-container {
+  width: 40px; 
+  margin-top: -48px;
 }
 
 .navbar-custom.top-nav-expanded .avatar-container {
