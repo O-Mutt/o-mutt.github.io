@@ -6,6 +6,7 @@ use-site-title: true
 
 <div class="posts-list">
   {% for post in paginator.posts %}
+  {% capture isEvenPost %}{{ forloop.index | modulo: 2 }}{% endcapture %}
   <article class="post-preview">
     <a href="{{ post.url | relative_url }}">
 	  <h2 class="post-title">{{ post.title }}</h2>
@@ -57,6 +58,19 @@ use-site-title: true
     {% endif %}
 
    </article>
+   
+  {% if site.google_adsense and isEvenPost == '0'  %}
+    <article class="post-preview">
+      <amp-ad width="100vw" height=320
+        type="adsense"
+        data-ad-client="{{ site.google_adsense }}"
+        data-ad-slot="{{ site.google_adslot }}"
+        data-auto-format="rspv"
+        data-full-width>
+        <div overflow></div>
+      </amp-ad>
+    </article>
+  {% endif %}
 
   {% endfor %}
 </div>
