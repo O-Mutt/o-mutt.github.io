@@ -138,6 +138,7 @@ google_analytics: "UA-38520661-2"
 
 # Google AdSense
 google_adsense: "ca-pub-5020666904167594"
+google_adslot: "4448716672"
 
 # Matomo (aka Piwik) Web statistics
 # Uncomment the following section to enable Matomo. The opt-out parameter controls
