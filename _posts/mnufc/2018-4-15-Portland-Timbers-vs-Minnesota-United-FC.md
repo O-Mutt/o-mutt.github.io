@@ -12,6 +12,7 @@ tags:
   - soccer
 excerpt:
   Cristian Roldan and the defending Western Conference champion Seattle Sounders continue their search for their first win of the season as they welcome second-year side Minnesota United to CenturyLink Field.
+hidden: true
 ---
 <div class='soccer-video-wrapper'>
 <iframe class='soccer-video' width='100%' height='auto' frameborder='0' allowfullscreen src="https://www.mnufc.com/iframe-video?brightcove_id=5770637055001&brightcove_player_id=default&brightcove_account_id=5534894110001"></iframe>
