@@ -17,11 +17,9 @@ use-site-title: true
 	  {% endif %}
     </a>
 
-    {% if post.date %}
-      <p class="post-meta">
-        Posted on {{ post.date | date: "%B %-d, %Y" }}
-      </p>
-    {% endif %}
+    <p class="post-meta">
+      Posted on {{ post.date | date: site.date_format }}
+    </p>
 
     {% if post.gh-repo %}
       <a href="https://github.com/{{ post.gh-repo }}">See this code on Github</a>
