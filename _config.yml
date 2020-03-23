@@ -52,6 +52,11 @@ hover-col: "#0085A1"
 footer-col: "#F5F5F5"
 footer-text-col: "#777777"
 footer-link-col: "#404040"
+h1-col: "#404040"
+h2-col: "#067daf"
+h3-col: "#27aae1"
+h4-col: "#404040"
+h5-col: "#404040"
 
 # Alternatively, the navbar, footer, and page background can be set to use background images
 # instead of colour
@@ -66,6 +71,7 @@ footer-link-col: "#404040"
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
   name: Matt Erickson (ME)
+  twitter: mutmatt
 
 # Select your active Social Network Links.
 # Uncomment the links you want to show in the footer and add your information to each link.
