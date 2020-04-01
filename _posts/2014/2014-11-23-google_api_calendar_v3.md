@@ -26,7 +26,7 @@ Recently I undertook a php application that was using a 'zend' google calendar a
 
 So here is the code that I have come up with that has worked pretty well for me. It is very similar to zend.   
 
-First we setup our google client from the client implementation on [Google Api PHP Client](<"https://github.com/google/google-api-php-client">), you will need the client in your application somewhere and will need to require the AutoLoad.php in order to use it. (Not shown below) 
+First we setup our google client from the client implementation on <a href="https://github.com/google/google-api-php-client">Google Api PHP Client</a>, you will need the client in your application somewhere and will need to require the AutoLoad.php in order to use it. (Not shown below) 
 
 ## Code it out
 
