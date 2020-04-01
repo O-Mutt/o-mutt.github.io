@@ -22,6 +22,9 @@ use-site-title: true
         Posted on {{ post.date | date: date_format }}
     </p>
 
+    {% if post.gh-repo %}
+      <a href="github.com/{gh-repo}">See this code on Github</a>
+    {% endif %}
     <div class="post-entry-container">
       {% if post.image %}
       <div class="post-image">
