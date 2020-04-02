@@ -833,3 +833,7 @@ pre {
 .soccer-video {
   height: 100%;
 }
+
+.btn.btn-success.tax-btn.active {
+  background-color: #c0392b;
+}
