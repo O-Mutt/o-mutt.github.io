@@ -9,7 +9,7 @@ Tags:
   - development
   - java
   - web
-gh-repo: /mutmatt/Xbox_Game_Voting
+gh-repo: mutmatt/Xbox_Game_Voting
 gh-badge: [star, watch, follow, fork]
 ---
 So, recently, I undertook the task of writing a quick project. From the ground up. I decided on a tech stack that I was familiar with and fit the criteria that was set forth by the project; struts2, hibernate, maven, java. Setup was fairly simple due to my knowledge of maven, but that is not what you are here to learn. 

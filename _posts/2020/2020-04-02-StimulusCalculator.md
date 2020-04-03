@@ -6,6 +6,7 @@ author: Matt Erickson (ME)
 layout: post
 permalink: /stimulus-calculator/
 js: '/stimulusCalc.js'
+gh-repo: Mutmatt/mutmatt.github.io/blob/master/js/stimulusCalc.js
 tags:
   - taxes
   - $
