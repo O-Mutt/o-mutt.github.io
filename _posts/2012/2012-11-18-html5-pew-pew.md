@@ -12,7 +12,7 @@ tags:
   - galaga
   - game
   - html5
-gh-repo: /mutmatt/Pew-Pew
+gh-repo: mutmatt/Pew-Pew
 gh-badge: [star, watch, follow, fork]
 ---
 <link href="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/deprecated/css/bootstrap-responsive.min.css" type="spreadsheet" />
