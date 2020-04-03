@@ -23,7 +23,7 @@ use-site-title: true
     </p>
 
     {% if post.gh-repo %}
-      <a href="github.com/{gh-repo}">See this code on Github</a>
+      <a href="github.com/{{ post.gh-repo }}">See this code on Github</a>
     {% endif %}
     <div class="post-entry-container">
       {% if post.image %}
