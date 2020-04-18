@@ -193,19 +193,19 @@ img {
 .navbar-custom .avatar-container .avatar-img-border {
   width: 100%;
   display: inline-block;
-  {% unless site.round-avatar == false %}
+  {% if site.round-avatar | default: true %}
   border-radius: 50%;
   margin-left: -50%;
   box-shadow: 0 0 8px rgba(0, 0, 0, .8);
   -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .8);
   -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-  {% endunless %}
+  {% endif %}
 }
 .navbar-custom .avatar-container .avatar-img {
   width: 100%;
-  {% unless site.round-avatar == false %}
+  {% if site.round-avatar | default: true %}
   border-radius: 50%;
-  {% endunless %}
+  {% endif %}
   display: block;
 }
 .navbar-custom.navbar-custom.top-nav-short .avatar-container {
@@ -225,11 +225,11 @@ img {
 
   .navbar-custom .avatar-container .avatar-img-border {
     width: 100%;
-    {% unless site.round-avatar == false %}
+    {% if site.round-avatar | default: true %}
     box-shadow: 1px 1px 2px rgba(0, 0, 0, .8);
     -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, .8);
     -moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, .8);
-    {% endunless %}
+    {% endif %}
   }
 
   .navbar-custom .avatar-container .avatar-img {
