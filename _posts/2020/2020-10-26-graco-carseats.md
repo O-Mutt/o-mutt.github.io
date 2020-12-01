@@ -22,6 +22,6 @@ Graco seemingly arbitrary requirements around how they make car seats. They seem
 In the end there were a few that fit our needs best but this is the criteria and the sheet that we used. Hopefully our research will help someone out in the future.
 
 ### TL;DR 
-We bought the Graco SnugRide SnugLock 35 DLX because it best fit our family's needs.
+We bought the **Graco SnugRide SnugLock 35 DLX** because it best fit our family's needs.
 
 <iframe style="position:relative;top:0;left:0;height:600px;width:100%" allowfullscreen src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ8VZH5ZoC8K5COyFs4PCZYnsjyKDG8078GNuijwCq9dbDjO--R2ZhZgGnXUiahUvefIj2JkIFZE4V4/pubhtml?widget=true&amp;headers=false"></iframe>
