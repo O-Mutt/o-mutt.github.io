@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: okeefe.dev
+Token: d09e75ae676194393b246265d3f234b19f676f0473b8d832127387c5dff8861a
